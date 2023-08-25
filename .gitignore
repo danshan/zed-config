@@ -1,0 +1,10 @@
+# vim
+*.swp
+*.swo
+*.un~
+Session.vim
+.netrwhist
+*~
+
+# MacOS
+.DS_Store
