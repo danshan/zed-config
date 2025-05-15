@@ -7,17 +7,33 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "base_keymap": "VSCode",
   "vim_mode": true,
   // The name of the Zed theme to use for the UI
-  "theme": "One Dark",
+  "theme": "Gruvbox Light",
   "buffer_font_size": 15,
   "buffer_font_family": "Hack Nerd Font Mono",
   "autosave": "on_focus_change",
+  "format_on_save": "off",
   "tabs": {
-    // Show git status colors in the editor tabs.
-    "git_status": false, // Position of the close button on the editor tabs.
-    "close_position": "right"
+    "close_position": "right",
+    "file_icons": true,
+    "git_status": true,
+    "show_close_button": "hidden"
   },
   "soft_wrap": "none",
-  "preferred_line_length": 200
+  "preferred_line_length": 200,
+  "auto_install_extensions": {
+    "html": true,
+    "dockerfile": true,
+    "docker-compose": true,
+    "git-firefly": true,
+    "java": true,
+    "xml": true
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "use_smartcase_search": true
 }
